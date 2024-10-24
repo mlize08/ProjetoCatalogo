@@ -34,3 +34,7 @@ img {
     overflow-x: auto;
     gap: 10px;
 }
+
+.lista{
+    background-color: aqua;
+}
