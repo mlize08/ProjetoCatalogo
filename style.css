@@ -7,7 +7,7 @@ body {
 section {
     background-color: rgb(74, 10, 142);
     padding-bottom: 5%;
-    padding-top: 5%;
+    ng-toppaddi: 5%;
     display: flex;
     justify-content: center;
 }
@@ -19,14 +19,19 @@ header {
     color: rgb(42, 122, 228);
 
 }
-
 .texto {
     margin-right: 80px;
 }
 
-img {
+.categoria-videos img {
 
     height: 200px;
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid green;
 }
 
 .categoria-videos {
